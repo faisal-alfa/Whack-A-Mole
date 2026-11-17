@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "857a7f3e-4389-be58-ecc9-4476301ebbf6"
+source_filename: "../../../../Downloads/Bold Monochrome Grass Tuft Icon.png"
+source_texture: "4c59b6a9-5498-b6d1-62af-7e6fa07e82dd"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "d8337565-bc81-25a1-fc80-cae2ae49b806"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "6d102f48-d8d0-fcaa-f961-7330004020d8"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "7d8ab95e-7aad-18c8-accd-115c8569195c"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "52f1759d-e835-0484-2bed-2be3c2dcd88e"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "b6eae770-f9db-9659-4b61-7b2caab7bc2c"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "191e5b2f-f0a3-94f5-8105-29ae3ade3209"
+}

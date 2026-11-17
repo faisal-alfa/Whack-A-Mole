@@ -1,0 +1,105 @@
+__type: "tm_entity"
+__uuid: "8716880f-ddc7-0fc6-c2e4-53aff9397757"
+name: "/"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "f34a9a23-313f-51a1-3e1d-730e5b203e71"
+		local_position_double: {
+			__uuid: "959032a6-f85e-9ec1-a687-ae0d56e45e64"
+		}
+		local_rotation: {
+			__uuid: "98279ddc-ca52-e67c-94a4-1df4591ccb23"
+		}
+		local_scale: {
+			__uuid: "59f60968-acc4-2307-6e6c-e6559a7319f7"
+		}
+	}
+]
+children: [
+	{
+		__uuid: "65f2b5ed-7f2a-d4f3-dcf0-d7b00c702950"
+		name: "root"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "d94e9e93-60c3-1649-c6a8-ddd78bf956ed"
+				local_position_double: {
+					__uuid: "85651ca3-4fa2-7fca-f00b-6bd97c458496"
+				}
+				local_rotation: {
+					__uuid: "4dadaa4d-5d59-442d-ea5c-2b71bcc075d8"
+					x: 4.3297803017132772e-17
+					y: 0.70710676908493042
+					z: 0.70710676908493042
+					w: 4.3297803017132772e-17
+				}
+				local_scale: {
+					__uuid: "a35d4da0-a400-2e4c-b5a1-7a99b3d6f273"
+				}
+			}
+		]
+		children: [
+			{
+				__uuid: "94351f26-5204-e477-45a6-addd28ea46ae"
+				name: "Plane_001"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "f8352ee8-d35f-5979-e2a5-a1802399bac6"
+						local_position_double: {
+							__uuid: "81d9ba39-c998-3e32-fdb3-9a6c5e3a538f"
+						}
+						local_rotation: {
+							__uuid: "a41e1252-d77b-0772-6e86-3ea0a2a66242"
+						}
+						local_scale: {
+							__uuid: "4d4bbc44-9d2f-922e-612a-bb8ed6231ca5"
+						}
+					}
+				]
+				children: [
+					{
+						__uuid: "60a42e42-9e97-e906-6015-5a27b659d0ad"
+						name: "Plane_002"
+						components: [
+							{
+								__type: "tm_transform_component"
+								__uuid: "232b259d-4c9d-40eb-d210-f782768e7932"
+								local_position_double: {
+									__uuid: "fa433592-beba-8bdc-5d00-e5ea181a3226"
+								}
+								local_rotation: {
+									__uuid: "ccd20a47-4fbe-b4a7-6026-a0e69b311625"
+								}
+								local_scale: {
+									__uuid: "68b0e80d-c9b1-17a6-3c71-5eac569d54fd"
+								}
+							}
+							{
+								__type: "tm_model_component"
+								__uuid: "0db0a27f-b4eb-1109-0458-8e4282cf4795"
+								mesh_resource: {
+									__type: "tm_mesh_resource_reference"
+									__uuid: "206524c5-ce24-29c6-c48d-e2275d8b82cd"
+									mesh_resource: "762f3f36-db83-a9b1-e8f7-616bf9a584db"
+								}
+								materials: [
+									{
+										__uuid: "2b1a21f2-da7b-da60-ddef-5479950fc02a"
+										name: "Plane_002"
+										material: "766af0b8-cf46-5ab8-7d3a-7e40fe9e3ec9"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+__asset_uuid: "91d1a3c7-1dee-48ed-9ec4-64a55334c479"
+__asset_labels: [
+	"2cbc16a459dc040f"
+]

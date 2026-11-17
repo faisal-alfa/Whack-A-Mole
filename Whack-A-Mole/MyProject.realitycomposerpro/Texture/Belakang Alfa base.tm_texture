@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "681f9c42-ee4b-36ea-ec4e-e7a9de3f1fe0"
+source_filename: "../../Belakang Alfa base.png"
+source_texture: "503b5a1d-128b-eb55-d09e-fc962ad03ade"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "f8f58061-6cf0-8d12-804d-1b0855ba5a53"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "d87d76ce-920d-36b8-2786-72c477b5a8ab"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "d1408588-f9f1-56e3-b581-97e8e00f85da"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "cb11a379-c096-204b-5620-ed302376ec7c"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "a47b379d-d371-8c45-ef21-0310da00e6e1"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "019aae55-641f-719b-a6ab-0ea0c5173c4a"
+}

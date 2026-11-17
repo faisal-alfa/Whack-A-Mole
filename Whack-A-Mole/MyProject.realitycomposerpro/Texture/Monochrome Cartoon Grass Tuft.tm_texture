@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "8ca1f229-97e1-0a68-f04d-1bff91509357"
+source_filename: "../../../../Downloads/Monochrome Cartoon Grass Tuft.png"
+source_texture: "010a69ee-b020-7d79-2443-66e5d3187722"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "4c8d213d-517e-2def-3477-91aa6641a6ff"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "85b27e2f-ed85-bd80-bc63-df062065c9c3"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "5ac2fd37-901c-d9f4-632e-8c5c2a6d4ea3"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "70e48eb1-1323-23f8-3a55-aa3bf78fdd60"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "7054e140-07f7-65ef-eaea-b72a09f3047a"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "d7ae317b-daaf-7eab-7539-ba05bbf9220c"
+}

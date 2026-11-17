@@ -1,0 +1,67 @@
+__type: "tm_usd_asset"
+__uuid: "59667ae6-3c0c-39ca-7b50-3bb9e20bb8d3"
+source_path: "../../lose.usdc"
+settings: [
+	{
+		__type: "tm_scene_optimizer"
+		__uuid: "b22ba619-0765-e7e1-d2fa-17d81df9528b"
+		settings: {
+			__uuid: "9327aaf8-8b0d-4343-6a81-b391a7d69c36"
+			graph: {
+				__uuid: "27f30ced-9dfd-b16b-4aee-02cd6944e543"
+				interface: {
+					__uuid: "6905de30-8d69-9968-9763-cdb15100f2c7"
+					inputs: [
+						{
+							__uuid: "8904a076-7253-9bba-bef7-a1a31662bf88"
+							name: "Merging Mode"
+							id: "scene_optimizer_settings__merging_mode"
+							value: {
+								__type: "tm_scene_optimizer_merging_mode"
+								__uuid: "92614b46-3d16-ec57-a94d-a64aaa216c6a"
+							}
+							public: true
+						}
+						{
+							__uuid: "23720f91-5e11-5799-6545-aa500412ab0e"
+							name: "Entities to Keep"
+							id: "scene_optimizer_settings__keep_entities_list"
+							value: {
+								__type: "tm_scene_optimizer_keep_entities_list"
+								__uuid: "b0c88b1f-dade-263c-4335-39b748949d32"
+							}
+							public: true
+						}
+					]
+				}
+			}
+		}
+		output: "2f4970a2-eb61-04d7-96bc-75231eb34035"
+	}
+	{
+		__type: "tm_lod_generator"
+		__uuid: "55a0635d-fc55-ed69-3fe0-53e8590b65d9"
+		cached_root_id: "f86d913c-496a-b2e8-1679-0d35d83a7777"
+	}
+]
+pro_settings: [
+	{
+		__type: "tm_usd_purpose_settings"
+		__uuid: "d03c0215-f0cc-d835-f49d-bb7008d1d074"
+	}
+	{
+		__type: "tm_usd_dev_settings"
+		__uuid: "7830e922-45fd-bc86-5452-207d3e22d6a2"
+		mesh_creation_graph: "feefd623-b26a-6155-97b0-2dd807e0e1c3"
+	}
+]
+variants: [
+	{
+		__uuid: "b4519dd4-fa57-024e-5ae0-cbc2c55a829e"
+		name: "Default"
+		root_entity: "32396397-b5b6-3303-edde-748b11a1dc31"
+		proxy_entity: "b11d38f9-8472-9848-c410-708e502ee577"
+		session: "93cadccf-f27e-aa3e-7639-4485fdcb1ad4"
+	}
+]
+__asset_uuid: "de05a9c3-9e96-0d95-19f7-75d81ce82977"

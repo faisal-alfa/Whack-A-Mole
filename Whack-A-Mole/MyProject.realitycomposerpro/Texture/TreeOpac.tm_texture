@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "b7d8b517-618b-f6a0-321e-8a6d05786fbf"
+source_filename: "../../TreeOpac.png"
+source_texture: "401248fd-0ca6-a388-3817-cfa14029a1d9"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "35ca4c2f-04fb-811b-4e9e-4991d0726ce2"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "b349e780-9622-d1d8-8324-7945cb5bf67b"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "7ef02a47-b51e-1052-0e22-2fec57eb74d6"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "60976e43-699f-dda2-fd83-3753177e861b"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "992a33ff-279c-61a0-3555-f4ac1a8c6ac4"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "c96fc4b5-6ebc-dee8-f8a1-89421526d511"
+}

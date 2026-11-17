@@ -1,0 +1,20 @@
+__type: "tm_mesh_resource"
+__uuid: "93610eeb-ca82-5a8c-98b6-f39013f657a3"
+models: [
+	{
+		__uuid: "a1c166e2-5989-7ff4-dc5f-ad9364739ede"
+		name: "Plane"
+		geometry: "3f42b2c4-a246-f3fe-bdcc-0cf8ae004a5d"
+		bounds_min: {
+			__uuid: "d7242576-14e5-38ad-fdc1-f2696d332670"
+			x: -1
+			y: -1
+		}
+		bounds_max: {
+			__uuid: "9840968c-958a-e326-f9be-308bac47dcab"
+			x: 1
+			y: 1
+		}
+	}
+]
+__asset_uuid: "56637cd5-5557-3f7f-830f-1963754d2929"

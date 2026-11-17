@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "8572eae1-bac4-8aba-6b46-b6eddb7ee40f"
+source_filename: "../../../../Downloads/Striking White Grass Silhouette.png"
+source_texture: "c0c55efe-843d-65dc-42d4-6d210fbb838f"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "aa3c49d0-81ff-adec-54c0-4451bb6c847b"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "73251aa2-fc48-c86c-8d13-adb69565a7b9"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "b5341f8b-3a2e-0dc8-d0e4-c7a14be0fbf1"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "7998776a-0cbf-c3e7-4e20-81ddf6bd1b5b"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "7e33b60f-1368-4763-4ce6-a34dda02b124"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "cb8124cc-ac3a-e961-f3de-2893f10227a0"
+}

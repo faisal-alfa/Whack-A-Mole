@@ -1,0 +1,162 @@
+__type: "tm_material"
+__uuid: "15b99f81-eae5-e615-b528-27073183ee5b"
+shader: {
+	__uuid: "88dd0857-35d4-d5ea-92a4-3483387d119b"
+}
+shader_graph: {
+	__uuid: "881a5a7f-bf37-f1a1-49f1-398aae811fed"
+	graph: {
+		__uuid: "924cfdce-59b4-1b1d-2f29-a20d8993c166"
+		nodes: [
+			{
+				__uuid: "1feeee0e-4c3b-b2e0-a53a-2ccce27180e4"
+				type: "tm_output_node"
+				position: {
+					__uuid: "085b2b7f-c477-c859-46b7-17460789a52f"
+					x: 162.5
+					y: -36.5
+				}
+			}
+			{
+				__uuid: "06464d6d-2ef6-08b8-d743-af0eca50ed9a"
+				type: "ND_UsdPreviewSurface_surfaceshader"
+				position: {
+					__uuid: "053eef04-ec2a-c1bf-a52f-2ea80428c586"
+					x: -67.65234375
+					y: -60.20703125
+				}
+				width: 265
+			}
+			{
+				__uuid: "05bc67c3-970e-59c0-bd62-308dc548c8d2"
+				type: "ND_image_color3"
+				position: {
+					__uuid: "70016330-0d6c-e8ff-bbce-234b594214c4"
+					x: -334.796875
+					y: -91.079360961914063
+				}
+			}
+			{
+				__uuid: "518ee433-aa66-28dd-e537-4c70dd94fa62"
+				type: "ND_image_float"
+				position: {
+					__uuid: "c1fd8a8a-fb41-66c5-b3e8-8131c409531f"
+					x: -336.48739624023438
+					y: 129.08154296875
+				}
+			}
+			{
+				__uuid: "1bc64107-6145-e0de-5b18-23224a881ced"
+				type: "tm_input_node"
+				position: {
+					__uuid: "5327e6c7-eb89-5b6a-f24a-71bc04a4cf87"
+					x: -545.015625
+					y: -91.079360961914063
+				}
+			}
+		]
+		connections: [
+			{
+				__uuid: "25e1f347-7cfe-64b4-da71-317e8c499ef1"
+				from_node: "06464d6d-2ef6-08b8-d743-af0eca50ed9a"
+				to_node: "1feeee0e-4c3b-b2e0-a53a-2ccce27180e4"
+				from_connector_hash: "685a9889b8402b60"
+				to_connector_hash: "c324f3a437be79e3"
+			}
+			{
+				__uuid: "e66b1dab-be4a-e092-1d2b-672eb3fe8cbf"
+				from_node: "05bc67c3-970e-59c0-bd62-308dc548c8d2"
+				to_node: "06464d6d-2ef6-08b8-d743-af0eca50ed9a"
+				from_connector_hash: "685a9889b8402b60"
+				to_connector_hash: "cb836048226639e6"
+			}
+			{
+				__uuid: "299bae27-a047-9d5e-3f66-c7f524f46f2d"
+				from_node: "518ee433-aa66-28dd-e537-4c70dd94fa62"
+				to_node: "06464d6d-2ef6-08b8-d743-af0eca50ed9a"
+				from_connector_hash: "685a9889b8402b60"
+				to_connector_hash: "2bbe599c6c8fe881"
+			}
+			{
+				__uuid: "c26e6c38-aa7e-8d67-4767-b0d6b7b2c8a9"
+				from_node: "1bc64107-6145-e0de-5b18-23224a881ced"
+				to_node: "05bc67c3-970e-59c0-bd62-308dc548c8d2"
+				from_connector_hash: "e3788136d5cba1cc"
+				to_connector_hash: "63d525adf27fd749"
+			}
+			{
+				__uuid: "bc4de540-a76c-6238-a12a-3bc7a0385505"
+				from_node: "1bc64107-6145-e0de-5b18-23224a881ced"
+				to_node: "518ee433-aa66-28dd-e537-4c70dd94fa62"
+				from_connector_hash: "5fe4e569adf4f4c1"
+				to_connector_hash: "63d525adf27fd749"
+			}
+		]
+		data: [
+			{
+				__uuid: "44fe2645-050e-1946-ff22-d9233d45d283"
+				to_node: "06464d6d-2ef6-08b8-d743-af0eca50ed9a"
+				to_connector_hash: "ea2298b545b7e617"
+				data: {
+					__type: "tm_float"
+					__uuid: "ebfb344d-bd79-36c3-bbea-6a2628b63eab"
+					float: 1
+				}
+			}
+		]
+		interface: {
+			__uuid: "dd7cbc41-1908-2140-8650-8e3dc724944b"
+			inputs: [
+				{
+					__uuid: "3ce2f86b-c880-5eb9-f62d-e542ebd5678c"
+					name: "Base"
+					id: "input__graph_15640399988340133401__7954534913196850815"
+					type_hash: "c0f0b0d37d0844de"
+					edit_type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "2e7d412e-28de-66eb-6603-84a1775dd1b1"
+					}
+					public: true
+				}
+				{
+					__uuid: "989804eb-b276-550c-fdff-866fc9a19337"
+					name: "Opac"
+					id: "input__graph_4008675320675069310__10125173497457925919"
+					type_hash: "c0f0b0d37d0844de"
+					edit_type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "efdead51-e407-7561-e3ef-5754c7806dcc"
+					}
+					public: true
+					order: 1
+				}
+			]
+			outputs: [
+				{
+					__uuid: "f3fe0ec8-273b-a6b6-d967-b33a3519f30d"
+					name: "surface"
+					display_name: "Surface Shader"
+					id: "output__surface__0"
+					type_hash: "c3f642cf65c817b8"
+				}
+				{
+					__uuid: "fd711a51-04ee-7a20-94c1-35f91f4f4bff"
+					name: "vertex"
+					display_name: "Geometry Modifier"
+					id: "output__vertex__1"
+					type_hash: "84dbff90ce229699"
+					order: 1
+				}
+			]
+		}
+	}
+}
+descriptor: {
+	__uuid: "2a04931b-cf79-347c-7447-41a35d7fc006"
+}
+__asset_uuid: "261086ee-a3f5-c27a-4773-c187153c8087"
+__asset_thumbnail: {
+	__uuid: "f61c8968-4a81-f121-ffeb-89f81a33d274"
+}

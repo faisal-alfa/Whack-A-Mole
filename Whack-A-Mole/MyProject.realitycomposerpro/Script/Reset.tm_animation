@@ -1,0 +1,166 @@
+__type: "tm_timeline"
+__uuid: "8b4cb581-8771-911f-38f6-09e73bc997cd"
+name: "Sequence"
+type: 1
+properties: {
+	__type: "tm_timeline_clip"
+	__uuid: "a1c403fe-8086-7657-e32d-6e220286e208"
+	speed: 1
+	settings: {
+		__type: "tm_sequence_clip"
+		__uuid: "91c6538b-58ab-1e74-6a96-94f8003d5c22"
+		target: "d9edbf9f-9753-1a22-0ef5-8e77a5ee3863"
+	}
+	source_group: {
+		__uuid: "968b1e1e-81d1-7f67-bb8d-3a629d6fd4bc"
+		members: [
+			{
+				__uuid: "abc8ac30-1806-2312-bcd7-12223f89fe01"
+				name: "Reset"
+				fill_mode: 1
+				type: 1
+				properties: {
+					__type: "tm_timeline_clip"
+					__uuid: "1b0b4910-d5ce-01ec-5938-da0cf7ecd024"
+					speed: 1
+					settings: {
+						__type: "tm_sequence_clip"
+						__uuid: "31092fb2-fb2d-1451-02d3-d12885724e7b"
+						type: 1
+						target: "d9edbf9f-9753-1a22-0ef5-8e77a5ee3863"
+					}
+					source_group: {
+						__uuid: "8e8aad4a-cc14-f31d-e66d-b4e9fa3b2c7d"
+						members: [
+							{
+								__uuid: "bc9604e2-14ae-77e4-0137-98268cc0ac35"
+								name: "Motion Path"
+								fill_mode: 3
+								type: 1
+								properties: {
+									__type: "tm_timeline_clip"
+									__uuid: "a524de26-3daf-942a-e84d-b457db2d2c24"
+									speed: 2
+									settings: {
+										__type: "tm_sequence_clip"
+										__uuid: "d701c4ea-9d38-938b-1214-cb286505044d"
+										type: 2
+										target: "d9edbf9f-9753-1a22-0ef5-8e77a5ee3863"
+									}
+									source_group: {
+										__uuid: "6f23b7bf-2d20-7f5f-80bc-d9ae064a72ae"
+										referenced_member: [
+											"a15f5a83-38cf-6761-ffd1-181e80ddf96b"
+										]
+										members_sort_values: [
+											{
+												__uuid: "f6aa0348-4663-dde5-86ee-616f85decbd9"
+												double: 2
+											}
+										]
+										owned_source: {
+											__uuid: "a15f5a83-38cf-6761-ffd1-181e80ddf96b"
+											name: "Motion Path"
+											type: 5
+											properties: {
+												__type: "tm_timeline_path"
+												__uuid: "90610f94-8d75-2b21-b2e8-ae5e62057d7e"
+												waypoints: [
+													{
+														__uuid: "4fdd96e1-4e6c-02a1-d66d-2af1b6ce8c8f"
+														transform: {
+															__uuid: "f44f8543-49ea-23d8-a61e-4c0998072e13"
+															position: {
+																__uuid: "0a30ad32-40ce-7483-4c5a-3b7771bee8cf"
+																y: -0.05000000074505806
+															}
+															rotation: {
+																__uuid: "c1083322-89b9-b8f0-c63b-ddcb3ba6643f"
+																z: -0.5
+																w: 0.86602538824081421
+															}
+															scale: {
+																__uuid: "ed74701e-ed85-000f-d7fa-65ccee5751f3"
+															}
+														}
+													}
+													{
+														__uuid: "a9444c39-50a9-7909-9083-50f2fca84f78"
+														transform: {
+															__uuid: "6ee30ae7-2e4c-1762-b76f-c059d5ee64e0"
+															position: {
+																__uuid: "bec79b1c-5958-6a3b-2790-ea5ddcd519ae"
+																y: -0.05000000074505806
+															}
+															rotation: {
+																__uuid: "f66d43d5-8c53-68be-41ba-deab30896821"
+															}
+															scale: {
+																__uuid: "757e02b1-c1c6-10ac-9ae7-b0e0a5f6b113"
+															}
+														}
+														time: 1
+													}
+												]
+												spin_axis: {
+													__uuid: "9963639e-3e8c-9c5a-5e3d-e047106a3209"
+													y: 1
+												}
+												forward_axis: {
+													__uuid: "84224c47-68a5-2da9-b7bc-e613b2b92d06"
+													z: 1
+												}
+												orbit_params: {
+													__uuid: "ee55fc79-cee2-7f1b-a0f6-45e8f90d2b00"
+													spin_axis: {
+														__uuid: "6f89d858-d3a0-35c6-3d1d-bfe622f624c3"
+														y: 1
+													}
+												}
+												transform: {
+													__uuid: "69f275c7-2722-826d-2add-a68ba816b46b"
+													position: {
+														__uuid: "433886b5-3abd-0db0-ee2e-699cb8917419"
+													}
+													rotation: {
+														__uuid: "8a4d96f6-733b-f857-e605-5c4a788f0890"
+													}
+													scale: {
+														__uuid: "0d1b02ae-0294-d28b-74ee-cb7cf0565012"
+													}
+												}
+												path_up: {
+													__uuid: "31bf8096-b17e-f369-8e07-c194349adf9b"
+													y: 1
+												}
+											}
+											clips: [
+												"bc9604e2-14ae-77e4-0137-98268cc0ac35"
+											]
+										}
+									}
+									loop_duration_infinite: true
+								}
+							}
+						]
+						members_sort_values: [
+							{
+								__uuid: "8997537f-fd54-d3d6-e08a-2f8a0518d823"
+								double: 2
+							}
+						]
+					}
+					loop_duration_infinite: true
+				}
+			}
+		]
+		members_sort_values: [
+			{
+				__uuid: "f0eb02d2-90c1-a65d-0fd1-56d74896008f"
+				double: 2
+			}
+		]
+	}
+	loop_duration_infinite: true
+}
+__asset_uuid: "868e75c6-0dc2-ffcd-9608-e1fb795a0b2a"

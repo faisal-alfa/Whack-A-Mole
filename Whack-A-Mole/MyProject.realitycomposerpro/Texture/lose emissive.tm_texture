@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "c77952c5-bfa4-ab4d-5b76-211bf2c7f00e"
+source_filename: "../../lose emissive.png"
+source_texture: "848c710b-06d9-4e48-8ad3-7b0b24ccdfb2"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "d8479318-c61f-5011-0217-e44739d5bdab"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "f1365a6e-95e8-1821-3203-80560a586c5f"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "4dac7f26-4cce-3f57-62aa-fb9f1a4b76c2"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "1c77b57b-9373-816e-72c7-abc7fcf4a010"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "145bd651-1a0d-810d-0c4c-57857313484f"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "a6868ce2-3f93-96e2-1faa-0f085e96c588"
+}

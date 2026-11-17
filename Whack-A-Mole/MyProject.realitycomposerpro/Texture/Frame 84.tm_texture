@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "ec3ebabe-915d-11c2-4472-5767b174d183"
+source_filename: "../../Frame 84.jpg"
+source_texture: "5ac60fd4-39ca-6137-0920-4cf2244d7e10"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "9ae883e9-02c9-a8df-4199-36153fc53d3b"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "1941f5dd-bc61-7a67-2936-d2a84b71a52b"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "35fb35a4-5845-f65c-8dd7-2e516c6e5f23"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "cbcb6b63-822c-2a43-b515-94850a4759e4"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "155ecd9f-fc12-13d3-a109-b0d35a59a3b8"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "eed827d7-c969-78e7-17be-84637528d57d"
+}

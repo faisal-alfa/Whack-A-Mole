@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "d5d73d92-829d-34dd-85e1-7009f7c25fb7"
+source_filename: "../../Frame 83.jpg"
+source_texture: "29fe5a89-a39d-8cbd-34d6-e0ccccf24ec0"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "71795227-e6f7-2c47-804c-311399764c11"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "144a4aad-a7b5-938d-2a92-8e932233b6ed"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "4957e4ca-04dd-8945-6739-365d843eda20"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "55e250ab-2530-df29-2cbb-1af29b692614"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "f2231542-71b8-fe9f-2e82-5c9e5586b646"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "89d99908-70f0-76fe-835c-9fb42cf5e4a9"
+}

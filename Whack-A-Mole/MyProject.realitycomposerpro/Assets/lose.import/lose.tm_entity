@@ -1,0 +1,15 @@
+__type: "tm_entity"
+__uuid: "b11d38f9-8472-9848-c410-708e502ee577"
+__prototype_type: "tm_entity"
+__prototype_uuid: "49cf4388-4270-6b9f-3eec-4f440ab5cf97"
+children__instantiated: [
+	{
+		__uuid: "4bd0d895-dd3e-2cef-5651-dcb9bad4cd43"
+		__prototype_type: "tm_entity"
+		__prototype_uuid: "f86d913c-496a-b2e8-1679-0d35d83a7777"
+		children__removed: [
+			"9c79e643-170f-ab64-01c2-aa284008676b"
+		]
+	}
+]
+__asset_uuid: "66fb70f2-88e4-8132-4ab3-0b117461adf7"

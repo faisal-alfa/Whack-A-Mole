@@ -1,0 +1,61 @@
+__type: "tm_material"
+__uuid: "7bd045aa-5a2c-cd9c-5a31-d2efe0063fc5"
+__prototype_type: "tm_material"
+__prototype_uuid: "15b99f81-eae5-e615-b528-27073183ee5b"
+shader: {
+	__uuid: "1b0ceb1a-3e51-2e8d-10d0-db950cb90726"
+	__prototype_type: "tm_re_material_definition_i"
+	__prototype_uuid: "88dd0857-35d4-d5ea-92a4-3483387d119b"
+}
+shader_graph: {
+	__uuid: "64498a64-cd4a-7ab4-1fda-9c800084d288"
+	__prototype_type: "tm_material_shader_graph"
+	__prototype_uuid: "881a5a7f-bf37-f1a1-49f1-398aae811fed"
+	graph: {
+		__uuid: "a1dc5c2b-1287-9c0c-8a33-7c2ba7d33a7d"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "924cfdce-59b4-1b1d-2f29-a20d8993c166"
+		interface: {
+			__uuid: "4f614340-3a49-5a0a-c474-92c6ac7ee75f"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "dd7cbc41-1908-2140-8650-8e3dc724944b"
+			inputs__instantiated: [
+				{
+					__uuid: "6dc3993d-5489-7724-f285-49aca60f5150"
+					__prototype_type: "tm_graph_input"
+					__prototype_uuid: "3ce2f86b-c880-5eb9-f62d-e542ebd5678c"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "39e6112e-c6e0-146d-64d3-27a23106e1e4"
+						__prototype_type: "tm_material_resource"
+						__prototype_uuid: "2e7d412e-28de-66eb-6603-84a1775dd1b1"
+						resource: "587d440d-6dc8-568a-6c96-bd0a14ac260a"
+						resource__type: "tm_texture"
+					}
+				}
+				{
+					__uuid: "1e8c4a25-afe5-1824-9b24-db573821c885"
+					__prototype_type: "tm_graph_input"
+					__prototype_uuid: "989804eb-b276-550c-fdff-866fc9a19337"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "5ff4e5cf-ca01-0877-514a-9babb574f737"
+						__prototype_type: "tm_material_resource"
+						__prototype_uuid: "efdead51-e407-7561-e3ef-5754c7806dcc"
+						resource: "b7d8b517-618b-f6a0-321e-8a6d05786fbf"
+						resource__type: "tm_texture"
+					}
+				}
+			]
+		}
+	}
+}
+descriptor: {
+	__uuid: "09921803-388a-be43-82d2-2a8e656bc9cb"
+	__prototype_type: "tm_material_shader_graph_descriptor"
+	__prototype_uuid: "2a04931b-cf79-347c-7447-41a35d7fc006"
+}
+__asset_uuid: "23ebb374-26ee-c9e3-6277-5b5705e585bd"
+__asset_thumbnail: {
+	__uuid: "7c97f7c4-fe4b-ec7f-3eb6-0655d4ec9a4b"
+}

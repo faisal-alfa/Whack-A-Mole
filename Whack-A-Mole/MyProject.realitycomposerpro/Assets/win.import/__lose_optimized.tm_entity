@@ -1,0 +1,165 @@
+__type: "tm_entity"
+__uuid: "2c46a3c6-bfea-2640-ad35-fb0c70069dfc"
+name: "/"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "f94d7dd9-a0b3-e35c-e28f-beab039d01de"
+		local_position_double: {
+			__uuid: "7b9d0bdd-2211-4f6e-2943-b9aeceacf605"
+		}
+		local_rotation: {
+			__uuid: "7ca3b823-5d95-555b-bc4d-01a067634ffe"
+			x: -0.70710676908493042
+			w: 0.70710676908493042
+		}
+		local_scale: {
+			__uuid: "bb67237f-37ec-153e-81e2-b42735efdec4"
+		}
+	}
+]
+children: [
+	{
+		__uuid: "a0187ead-d6d7-b6bd-9e01-62fbfdcb4daf"
+		name: "root"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "5073a27a-7540-60cc-ca1a-29acbc01154d"
+				local_position_double: {
+					__uuid: "5b9985de-4422-b6f3-45d6-b83e32b0f337"
+				}
+				local_rotation: {
+					__uuid: "6b49009b-a9e8-adb6-d2f1-31aa9c46d597"
+				}
+				local_scale: {
+					__uuid: "b500216d-1b7d-bf0e-f283-f5be43d874b2"
+				}
+			}
+		]
+		children: [
+			{
+				__uuid: "6433f9d8-87a6-0694-c393-d017b95f81b0"
+				name: "Cube"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "a8ea5821-0f8b-1370-65b8-1c438a9fd66a"
+						local_position_double: {
+							__uuid: "45ae5eca-d9dd-9d74-dd6a-83885d0f7b89"
+							y: 4.9639463424682617
+						}
+						local_rotation: {
+							__uuid: "b7358ebe-3e8a-d1aa-9f03-e140949fc6bc"
+						}
+						local_scale: {
+							__uuid: "b78ab69b-0810-c205-d6ff-6b743306eee5"
+						}
+					}
+				]
+				children: [
+					{
+						__uuid: "43802161-2ffd-17ee-9607-62c131e428a5"
+						name: "Cube_001"
+						components: [
+							{
+								__type: "tm_transform_component"
+								__uuid: "98be9948-6906-e895-afc0-15a92ecf8593"
+								local_position_double: {
+									__uuid: "69fcfec6-a10a-13c0-c22c-1f18d18dab27"
+								}
+								local_rotation: {
+									__uuid: "1b84b67a-b1c2-2d4d-f83b-9fbcf9fe1b9f"
+								}
+								local_scale: {
+									__uuid: "abce67ac-b466-3bf4-1e67-02e142f1b036"
+								}
+							}
+							{
+								__type: "tm_model_component"
+								__uuid: "d5cd6630-87d5-bad4-6d9b-fe0e738eb5a5"
+								mesh_resource: {
+									__type: "tm_mesh_resource_reference"
+									__uuid: "962011c4-2865-96ee-cf25-59818250a49b"
+									mesh_resource: "abe55018-18b3-50ef-544b-13e732dd51ad"
+								}
+								materials: [
+									{
+										__uuid: "903c1eff-ce29-b034-2bff-ccd1360ce916"
+										name: "Cube_001"
+										material: "7d6828d2-820c-b911-40ee-47056e99a4bc"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+			{
+				__uuid: "8ea6cc64-700d-ef15-3dae-45337fccb186"
+				name: "Plane"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "7f0acbd0-b831-d3d6-51a9-6c23a2637472"
+						local_position_double: {
+							__uuid: "0b8f6b5c-d4bc-60af-e282-2cbb08f9acc3"
+						}
+						local_rotation: {
+							__uuid: "614cdf2a-fd3e-a723-88d6-6a10b0fdc55d"
+							x: 0.037178196012973786
+							w: 0.99930864572525025
+						}
+						local_scale: {
+							__uuid: "e6040065-2e12-e9b1-9c1d-563cff81160a"
+							x: 4
+							y: 1.9999998807907104
+							z: 0.99999994039535523
+						}
+					}
+				]
+				children: [
+					{
+						__uuid: "7f3b6878-b67e-b6db-2b74-5683fc15974e"
+						name: "Plane"
+						components: [
+							{
+								__type: "tm_transform_component"
+								__uuid: "17f2aab1-73ad-ca37-9982-049263aad87c"
+								local_position_double: {
+									__uuid: "c7d640e4-0710-689a-4a36-5c3ab9705f93"
+								}
+								local_rotation: {
+									__uuid: "219aaca2-4304-8b0c-cfa0-0e3c8552177a"
+								}
+								local_scale: {
+									__uuid: "fbc92d80-7406-3c2e-4ffe-20fdf53b3b7e"
+								}
+							}
+							{
+								__type: "tm_model_component"
+								__uuid: "74cccfa3-6a85-0ad9-6375-ab958a2a6337"
+								mesh_resource: {
+									__type: "tm_mesh_resource_reference"
+									__uuid: "17149aa7-3fd0-4c13-9287-2c51dbbbbc78"
+									mesh_resource: "d97b91ce-adeb-9f13-12aa-8d8fd9b41455"
+								}
+								materials: [
+									{
+										__uuid: "3685f1ca-20db-bfcf-fa5f-aac25cdaecd0"
+										name: "Plane"
+										material: "44ae0cf2-b0dd-87d4-8aaf-ce55c5ef570b"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+__asset_uuid: "f27e4d8d-ffe4-b832-6faa-5eb4b90326fe"
+__asset_labels: [
+	"2cbc16a459dc040f"
+]

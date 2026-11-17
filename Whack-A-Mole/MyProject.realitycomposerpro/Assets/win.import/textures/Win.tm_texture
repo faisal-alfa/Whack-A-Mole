@@ -1,0 +1,31 @@
+__type: "tm_texture"
+__uuid: "70499902-535d-45e1-c866-73cf6bdc4376"
+source_filename: "../../textures/Win.png"
+source_texture: "db3cec39-ae44-5e5f-3144-755169f91991"
+transform: "dbdb0d4a0b9144f5"
+transform_settings: {
+	__uuid: "2829a8d2-bfc9-e762-7a89-a9436953e09a"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "9eee8001-52a4-671e-193e-13b33cb6c233"
+	graph: {
+		__uuid: "b4a5db8f-d6db-09ab-f2a3-e5ca39930803"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "311e84c2-053c-4beb-0569-d8aac8083cd2"
+		interface: {
+			__uuid: "c0cc6e53-d122-1300-d31f-6daffca0f4f7"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "80ed42b0-003f-1504-072c-3ea14241dccf"
+		}
+	}
+}
+color_space: {
+	__uuid: "76f7ee51-443b-a1f7-5502-f44833d1699e"
+	transfer_function: 1
+}
+__asset_uuid: "0d84417c-e8eb-6089-7bee-2bda9c9f2891"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "4af9627a-eb0d-14ae-961f-bca6b07d5e9c"
+}

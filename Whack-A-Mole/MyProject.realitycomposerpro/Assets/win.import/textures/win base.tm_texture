@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "39a541e0-5642-5532-5491-028b8263c0bc"
+source_filename: "../../textures/win base.png"
+source_texture: "905ed5bc-91d8-27ab-e1c5-2adecc52af2b"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "6ce99826-501d-4086-cbf1-59cea77b22fa"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "2830e70c-9d8f-605e-dbed-36819aa23796"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "edf0c98d-005b-bc4e-43d5-098a4ca82d47"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "594861c6-f408-3fcd-9b2b-c055955a5eb5"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "2f1f8a91-a6a7-eb3b-a4d2-19e7c260180b"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "86fd06b9-76d8-5101-1a37-71c6e52d71c0"
+}
